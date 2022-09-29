@@ -1,16 +1,122 @@
-.body{
-    background-color: tomato;
-    color: 212121 ;
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --hero-color: #FFFFFF;
+    --background-color: #F5F5F5;
+    --hero-background-color: #2F303A;
+    --logo-text-color: #000000;
+    --text-adress: rgba(0,0,0,0,6);
 }
 
 
-ul{
+.body {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+    font-family: Roboto;
+}
+
+
+.list {
     list-style: none;
 }
 
 
-/*первичный цвет  212121 */
+/*цвет фона #F5F5F5  */
 
-/*вторичный цвет  757575 */
+/*первичный цвет заголовок #212121 */
 
-/*синие надписи  2196F3 */
+/*вторичный цвет текста #757575 */
+
+/*синие надписи акцент #2196F3 */
+
+/*часть цвета на лого #000000 */
+
+/* цвет hero #FFFFFF */
+
+/* цвет фона в hero #2F303A */
+
+
+
+
+
+/* heder */
+
+.logo {
+    color: var(--logo-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+   color: var(--accent-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-list .link {
+    color: var(--title-text-color);
+}
+
+.site-list .link:hover,
+.site-list .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+/* Hero */
+.hero {
+    background-color: var(--hero-background-color);
+}
+
+.hero-title {
+    color: var(--hero-color) ;
+}
+
+.button .primary {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+}
+/* Section */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.feature-list .title {
+    color: var(--primary-text-color);
+} 
+
+.text {
+    color: var(--title-text-color);
+}
+
+
+
+/* footer */
+
+.footer {
+background-color: var(--hero-background-color);
+}
+ 
+.logo {
+    color: var(--hero-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.site-list .link{
+    color: var(--hero-color);
+}
+
+
