@@ -60,7 +60,7 @@ body {
     line-height: 1.2;
 }
 
-.span {
+.span-header {
     color: var(--logo-text-color);
     text-decoration: none;
 
@@ -69,8 +69,8 @@ body {
     line-height: 1.2;
 }
 
-.span:hover,
-.span:focus {
+.span-header:hover,
+.span-header:focus {
     color: var(--accent-color);
 }
 
@@ -155,14 +155,15 @@ body {
  }
 
  
-.feature-list .text-transform: uppercase {
+.text-transform {
     color: var(--primary-text-color);
 
-            font-weight: 700;
-            font-size: 36px;
-            line-height: 1.14;
-            text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0.44;
+    text-transform: uppercase;
 }
+
 
 
 .text {
@@ -269,8 +270,8 @@ background-color: var(--hero-background-color);
     line-height: 1.19;
 }
 
-.span {
-    color: var(--logo-text-color);
+.span-footer {
+    color: var(--hero-color);
     text-decoration: none;
 
     font-family: 'Raleway', sans-serif;
@@ -278,8 +279,8 @@ background-color: var(--hero-background-color);
     line-height: 1.19;
 }
 
-.span:hover,
-.span:focus {
+.span-footer:hover,
+.span-footer:focus {
     color: var(--accent-color);
 }
 
